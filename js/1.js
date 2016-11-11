@@ -1,11 +1,11 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
 
-$(function() {
+$(function () {
 	for (i = 0; i < 3; i++) {
 		$('.buzz_wrapper .text span').eq(0).clone().prependTo('.buzz_wrapper .text');
 	}
-	for (i = 0; i < 50; i++) {
+	for (i = 0; i < 65; i++) {
 		$('.buzz_wrapper .scanline').eq(0).clone().appendTo('.buzz_wrapper');
 	}
 });
