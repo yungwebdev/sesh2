@@ -23,9 +23,7 @@ body {
 
 .scanline {
   position: relative;
-  top: 23%;
-  width: 80%;
-  transform: translateY(-50%);
+  top: 24%;
   background: #000;
   height: 4px;
   z-index: 3;
@@ -33,14 +31,14 @@ body {
   opacity: 0.1; }
 
 .buzz_wrapper span {
-  padding-left: 100px;
-  padding-top: 400px;
   position: absolute;
   -webkit-filter: blur(1px);
   font-size: 2EM;
   font-family: 'Courier new', fixed;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  padding-top: 350px;
+  padding-left: 40px; }
 
 .buzz_wrapper span:nth-child(1) {
   color: red;
@@ -123,7 +121,14 @@ body {
     left: -10px; } }
 .buzz_wrapper .text {
   -webkit-animation: jerkwhole 5s infinite;
-  position: relative; }
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 1000px;
+  height: 500px; }
 
 @-webkit-keyframes jerkwhole {
   40% {
