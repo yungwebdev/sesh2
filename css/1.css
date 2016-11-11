@@ -22,12 +22,15 @@ body {
   overflow: hidden; }
 
 .scanline {
+  margin: auto;
+  top: 100px;
+  width: 1000px;
+  height: 500px;
   position: relative;
-  top: 24%;
   background: #000;
   height: 4px;
-  z-index: 3;
   margin-bottom: 4px;
+  z-index: 3;
   opacity: 0.1; }
 
 .buzz_wrapper span {
@@ -37,8 +40,8 @@ body {
   font-family: 'Courier new', fixed;
   font-weight: bold;
   text-align: center;
-  padding-top: 350px;
-  padding-left: 40px; }
+  padding-left: 39px;
+  bottom: 0; }
 
 .buzz_wrapper span:nth-child(1) {
   color: red;
